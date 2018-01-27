@@ -1,0 +1,13 @@
+{
+  "name": "mockService",
+  "version": "1.0.0",
+  "description": "A set of simple mock services, running on Node.js, packaged up as a Docker container",
+  "author": "Leif Lourie <leif.lourie@oracle.com>",
+  "main": "mockService.js",
+  "scripts": {
+    "start": "node mockService.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
